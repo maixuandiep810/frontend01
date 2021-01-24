@@ -1,1 +1,20 @@
 Hello, project Profile Card 01!
+Reference: https://www.frontendmentor.io/solutions/profile-card--1hgbNJWd
+
+.The title dau tien,
+meta charset dau tien moi cho utf dung??? 50-50
+
+.link
+https://www.sitepoint.com/recreate-the-cyberpunk-2077-button-glitch-effect-in-css/
+https://kipalog.com/posts/PSD-sang-HTML-tu-A-den-Z
+https://www.slideshare.net/hop23typhu/ti-liu-hng-dn-ct-giao-din-t-file-photoshop
+
+https://thesiteslinger.com/blog/tutorial-how-to-code-your-psd-into-a-html-css-layout
+https://viblo.asia/p/ho-bien-mot-file-psd-thanh-giao-dien-web-voi-html-css-RnB5pB96ZPG
+https://www.xhtmlchop.com/tutorial.html
+
+.ban quyen image,...
+stocksnsap.io, fontawsome, color:, font ggle ...
+
+.pts
+-image: resolution 72, in an: 3000, width: 1280?!
