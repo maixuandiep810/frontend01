@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        1. html
+            html + tab
+        2. id
+            #header, section#header
+            a. header >< #header
+        3. class
+            .school, p.school
+        4. parent - child
+            p.cat>ul>li
+        5. Multi element
+            p#dog>ul*2>li*3
+        6. add number
+            ul>li*5>a{item $}
+            ul>li*5.item-$>a{bla}
+        7. same level
+            #wrapper>#header+#content+#footer
+            #wrapper>(#header>ul#nav>ul>li*3)+#content+#footer
+            
+    -->
+
+    <!-- 2. id -->
+    <div id="header"></div>
+    <section id="header"></section>
+    <!-- 3. class -->
+    <div class="school"></div>
+    <p class="school"></p>
+    <!-- 4. parent-child -->
+    <p id="cat">
+        <ul>
+            <li></li>
+        </ul>
+    </p>
+    <!-- 5. multi element -->
+    <p id="dog">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
+    <!-- 6. add number -->
+    <ul>
+        <li><a href="">item 1</a></li>
+        <li><a href="">item 2</a></li>
+        <li><a href="">item 3</a></li>
+        <li><a href="">item 4</a></li>
+    </ul>
+    <ul>
+        <li class="item-1"><a href="">item blabla</a></li>
+        <li class="item-2"><a href="">item blabla</a></li>
+        <li class="item-3"><a href="">item blabla</a></li>
+        <li class="item-4"><a href="">item blabla</a></li>
+        <li class="item-5"><a href="">item blabla</a></li>
+    </ul>
+    <!-- 7. same level -->
+    <div id="wrapper">
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+    </div>
+    <div id="wrapper">
+        <div id="header">
+            <ul id="nav">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </ul>
+        </div>
+        <div id="content"></div>
+        <div id="footer"></div>
+    </div>
+
+</body>
+</html>
